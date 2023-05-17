@@ -2,7 +2,6 @@
 
 from flask import Flask
 import psycopg2
-from site.views import app
 
 app = Flask(__name__)
 postgres = psycopg2.connect(
